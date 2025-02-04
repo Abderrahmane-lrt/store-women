@@ -1,0 +1,54 @@
+
+
+@media  screen and (max-width:768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .logo{
+        justify-content: center;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+}
+@media  screen and (max-width:481px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .logo{
+        justify-content: start;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+    nav #cart{
+        display: inline-block;
+        width: 140px;
+    }
+    .hero-info h2 {
+        font-size: 2em;
+    }
+    .hero img{
+        width: 300px;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+    .products{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .discount{
+        display: none;
+    }
+
+}
